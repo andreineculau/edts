@@ -59,11 +59,6 @@ sources:
 #### Get EDTS:
 ```M-x package-install RET edts RET```
 
-#### Make sure EDTS is loaded and started in your .emacs:
-```elisp
-  (require 'edts-start)
-```
-
 #### Configure your projects.
   EDTS projects configured by creating a file called
   `.edts` in your project's root. The configuration file is a number of lines,
